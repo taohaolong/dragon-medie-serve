@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="librtmp">
+      <UniqueIdentifier>{a06ba49b-823b-4e63-84eb-9290c2ab496b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{51336c83-f203-48e3-b3d8-70125ba148e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{6e719aff-e93a-4e19-99e2-86cc99bae508}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\rtmp-audiospecificconfig.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rtmp-avcdecoderconfigurationrecord.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rtmp-client.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rtmp-meta.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="librtmp\amf.c">
+      <Filter>librtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="librtmp\hashswf.c">
+      <Filter>librtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="librtmp\log.c">
+      <Filter>librtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="librtmp\parseurl.c">
+      <Filter>librtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="librtmp\rtmp.c">
+      <Filter>librtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rtmp-reader.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\flv-demuxer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdk\string\strlcpy.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="test\rtmp-reader-test.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\rtmp-sender-test.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="source\flv-reader.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\flv-reader-test.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="source\mpeg4-aac.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\mpeg4-avc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\flv-writer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\rtmp-client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="librtmp\amf.h">
+      <Filter>librtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="librtmp\bytes.h">
+      <Filter>librtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="librtmp\dh.h">
+      <Filter>librtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="librtmp\dhgroups.h">
+      <Filter>librtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="librtmp\handshake.h">
+      <Filter>librtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="librtmp\http.h">
+      <Filter>librtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="librtmp\log.h">
+      <Filter>librtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="librtmp\rtmp.h">
+      <Filter>librtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="librtmp\rtmp_sys.h">
+      <Filter>librtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rtmp-reader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\flv-demuxer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\flv-reader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mpeg4-aac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mpeg4-avc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\flv-writer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
